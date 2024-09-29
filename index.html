@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Jonathan - Desarrollador web y diseñador">
+    <title>Protafolio Jonathan</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="branding">
+                <a href="#" class="logo">
+                    <img src="/img/logo1.1-removebg-preview.png" alt="Logo de Jonathan"> <!-- Logo distinto a la imagen de perfil -->
+                </a>
+                <h1 class="page-name">Jonathan</h1>
+            </section>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" aria-label="Bienvenida">
+        <article class="banner-content">
+            <p class="welcome-text">Bienvenido a mi portafolio, Soy Jonathan y quiero que conozcas mis proyectos.</p>
+            <figure class="profile-image">
+                <img src="/img/5.jpg" alt="Imagen de perfil" class="image">
+            </figure>
+        </article>
+        <a href="#sobre-mi" class="btn">Saber más</a>
+    </section>
+
+    <main>
+        <!-- Sección "Sobre mí" -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Estoy sumergido en el fascinante mundo del desarrollo web, explorando cada rincón de HTML y CSS. Me encanta crear páginas que no solo se vean increíbles, sino que también funcionen a la perfección. Cada línea de código es un paso más hacia experiencias digitales que sorprendan y conecten. ¡Hacer que todo cobre vida en la web es lo que realmente me apasiona!.</p>
+        </section>
+
+        <!-- Sección "Proyectos" -->
+        <section id="proyectos">
+            <h2>Mis Proyectos Actualmente</h2>
+            <article class="proyecto">
+                <h3>Proyecto 1: Tarjeta de invitación</h3>
+                <p>Desarrolle una tarjeta de invitación, que trata de un cumoleaños, esta fue desarrollada con HTML y Java Script</p>
+                <a href="https://github.com/Jonathan20061613/Tarjeta-de-Invitacion" class="btn">Ver proyecto</a>
+            </article>
+            <article class="proyecto">
+                <h3>Proyecto 2: Landing Page</h3>
+                <p>Creé una Página de Inicio donde puedes encontrar todo sobre la música y sobre su importancia.</p>
+                <a href="https://github.com/Jonathan20061613/Proyecto-Landing-Page" class="btn">Ver proyecto</a>
+            </article>
+            <article class="proyecto">
+                <h3>Proyecto 3: Proyecto en CURSO con Figma</h3>
+                <p>En este proyecto encontrarás la maquetación de una Página Web que trata sobre la adopción de Mascotas. Primero va a ser realizado en Figma y después se pasará a HTML y CSS para ser una Página funcional.</p>
+                <a href="https://www.figma.com/proto/cUP4V7GbvtCqOI1IRbV7Yv/Actividad-final-UX?node-id=34-2&node-type=canvas&t=CVQUtpxR8gN5Az8k-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="btn">Ver proyecto</a>
+            </article>
+        </section>
+
+        <!-- Sección "Habilidades" -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>Diseño UX/UI</li>
+                <li>SEO</li>
+            </ul>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="/enviar" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Puedes contactarme a través de mi correo: <a href="andressguilera2006@gmail.com">andressguilera2006@gmail.com</a></p>
+    </footer>
+</body>
+</html>
